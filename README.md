@@ -11,7 +11,7 @@ http://localhost:8889
 
 ## 鉴权
 - Bearer Token 
-- JWT Token Via HTTP Header (Authorization:${token})
+- JWT Token Via HTTP Header (Authorization:${token})
 
 ## 开发
 
