@@ -1,6 +1,9 @@
 # Edge Admin
-go-resultful + vue + gorm + gobindata打包（页面+后台）+ swaggerui
-访问地址: http://localhost:8889
+- go-resultful + vue + gorm + gobindata打包（页面+后台）+ swaggerui
+- 访问地址: 
+```
+http://localhost:8889
+```
 
 ## API
 - 用户管理
@@ -51,4 +54,4 @@ http://localhost:8889/ws
   - container_log
 
 - 使用参考
-[websocket.js](pkg/websocket/websocket.js)
+[websocket.js](https://github.com/xunlbz/go-restful-template/tree/master/pkg/websocket/websocket.js)
