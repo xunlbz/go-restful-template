@@ -1,0 +1,13 @@
+[Unit]
+Description=edgeAdmin
+ 
+[Service]
+Type=simple
+ExecStart=/usr/bin/edge_admin
+Restart=always
+RestartSec=5
+StartLimitInterval=0
+RestartPreventExitStatus=SIGKILL
+ 
+[Install]
+WantedBy=multi-user.target
